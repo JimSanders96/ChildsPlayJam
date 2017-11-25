@@ -20,6 +20,9 @@ public class Timer : MonoBehaviour
 
     public void StartTimer()
     {
+        if (timerActive)
+            return;
+
         startTime = CurrentTimerValue.Value = GetRandomTime();
         timerActive = true;
         TimerStartEvent.Raise();
