@@ -37,7 +37,7 @@ public class CoinSound : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log(TimerPercentage.Value);
+		//Debug.Log(TimerPercentage.Value);
 	}
 
     public void PlayCoinToss()
